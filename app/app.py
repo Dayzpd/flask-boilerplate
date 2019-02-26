@@ -7,10 +7,6 @@ from importlib import import_module
 import json
 import os
 
-ROOT_FOLDER = os.path.abspath(os.path.dirname(root_path.__file__))
-TEMPLATE_FOLDER = os.path.join(ROOT_FOLDER, 'templates')
-STATIC_FOLDER = os.path.join(ROOT_FOLDER, 'static')
-
 
 def get_app():
     # Load Environment Variables
