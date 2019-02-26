@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Assistant">
+  <meta name="author" content="Zachary P. Day">
+  <link rel="icon" href="./static/img/favicon.ico">
+  <title>Flask Boilerplate</title>
+
+  {% include "index_css.html" %}
+
+</head>
+
+<body class="dip-fill-body dip-grey-bg">
+
+  <div class="dip-header" id="nav-top">
+    {% include "index_nav_t.html" %}
+  </div>
+
+
+  <div class="container-flex">
+    <div class="row align-items-center h-100" id="content">
+      {% include "index_home.html" %}
+    </div>
+  </div>
+
+
+  <div class="dip-footer" id="nav-bottom"></div>
+
+  {% include "index_js.html" %}
+
+</body>
+
+</html>
