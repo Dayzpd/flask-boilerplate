@@ -8,8 +8,6 @@ def landing():
     '''
     Render index template.
     '''
-    print(request)
-    print(request.environ['REMOTE_ADDR'])
     if 'user' in session:
         logged_in = True
     else:
